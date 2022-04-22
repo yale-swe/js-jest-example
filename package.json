@@ -1,0 +1,18 @@
+{
+  "name": "js-jest-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yale-swe/js-jest-example.git",
+  "author": "wu-json <jason.wu2153@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  }
+}
